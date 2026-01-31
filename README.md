@@ -2,18 +2,21 @@
 
 Production-ready monitoring server for the Somatic Launcher that tracks game statistics, uptime, crashes, and restarts.
 
+**Last Updated**: 2026-02-01
+
 ## Features
 
 - ✅ **Real-time monitoring** - Track launcher and game status in real-time
-- ✅ **Event logging** - Record all significant events (launches, crashes, restarts)
+- ✅ **Event logging** - Record all significant events (launches, crashes, restarts)  
 - ✅ **Professional dashboard** - Beautiful, responsive web interface
 - ✅ **Security** - API key authentication, rate limiting, helmet protection
 - ✅ **Production-ready** - Optimized for deployment on Render.com
 - ✅ **Auto-recovery** - Automatically detects when launcher goes offline
+- ✅ **Emoji Event Logs** - Beautiful emoji indicators for all events
 
 ## API Endpoints
 
-### POST `/update`
+###POST `/update`
 Receives launcher status updates.
 
 **Headers:**
@@ -162,7 +165,7 @@ The dashboard displays:
 - **Crashes (2m)** - Crashes in the last 2 minutes
 - **Total Restarts** - Cumulative restart count
 - **Server Uptime** - How long the server has been running
-- **Event Logs** - Last 50 significant events
+- **Event Logs** - Last 50 significant events with emoji indicators
 
 ## Security
 
